@@ -1,0 +1,35 @@
+= Karee
+== Description
+Karee is a small Javascript & CSS library that turns nested 'ul' and 'li' elements into an organizational chart like tree.
+
+== Usage
+* Include the karee.js and karee.css files in the head of your document.
+	<head>
+		...
+		<script src="jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="karee.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="karee.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		...
+	</head>
+
+* Build a nested ul and li list that is contained in a div
+	code example
+	<div id='tree_container'>
+		<ul>
+			<li> A
+			  <ul>
+					<li>C</li>
+					<li>D</li>
+				</ul>
+			</li>
+			<li>B</li>
+		</ul>
+	</div>
+
+* Kareeify!
+	<script type="ext/javascript">
+		$('#id_of_containing_div').kareeify();
+	</script>
+
+== Requirements
+JQuery
