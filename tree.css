@@ -1,0 +1,33 @@
+div#tree_container {
+  width: 3000px;
+}
+
+ul.node li.node {
+  list-style-type: none;
+  float:left;
+  text-align: center;
+}
+ul.node li.node div.node_outer {
+  width: 180px;
+  margin: 20px auto;
+}
+
+ul.node li.node div.node_inner {
+  height: 90px;
+  margin: 0 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+ul.node, li.node {
+  margin: 0;
+  padding: 0;
+}
+
+.vertical_line{
+  background-color: black;
+  width: 1px;
+}
+.horizontal_line{
+  background-color: black;
+  height: 1px;
+}
